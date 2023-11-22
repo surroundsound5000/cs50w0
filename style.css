@@ -1,11 +1,19 @@
-#header{
-    width: 100%;
+#left{
+    flex-basis: 50%;
 }
 
 #right {
     text-align: right;
+    flex-basis: 50%;
+    background-color: orange;
 }
 
 #form {
     text-align: center;
+}
+
+.flex-container {
+    display : flex;
+    width : 100%;
+    background-color: yellow;
 }
