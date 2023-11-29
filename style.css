@@ -28,6 +28,13 @@
 
 }
 
+.button {
+    border:none;
+    background-color: #f8f9fa;
+    height: 40px;
+    width: 130px;
+}
+
 .adv-button{
     font-weight: bold;
     padding: 8px;
@@ -40,8 +47,6 @@
     width: 150px;
     margin-right: 0px;
     margin-left: auto;
-
-
 }
 
 #left{
@@ -68,7 +73,6 @@ a {
     top: 20%;
     left: 50%;
     transform: translate(-50%, 0);
-    
 }
 
 #qbox {
@@ -78,11 +82,4 @@ a {
     height:20px;
     padding: 10px;
     padding-left:3%;
-}
-
-.button {
-    border:none;
-    background-color: #f8f9fa;
-    height: 40px;
-    width: 130px;
 }

@@ -18,48 +18,37 @@
             </div>
         </div>
 
-        <form id="advform" action="https://google.com/images" style="padding:40px;">
+        <form id="advform" action="https://google.com/search" style="padding:40px;">
             <h1 style="color: #d93025; font-size: 20px; font-weight: 200;">Advanced Search</h1>
             <hr>
             <div>
-                <p style="font-size: 16px;">Find pages with...</p>
+                <p style="font-size: 16px;">
+                    Find pages with...
+                </p>
 
                 <div class="grid-container">
                     <div>
-                        all these words
+                        all these words:
                     </div>
+                    <input id="all" type="text" name="as_q" label="All" class="grid-input">
 
-                        <input id="all" type="text" name="all" label="All" class="grid-input">
-                    
                     <div>
-                        this exact word or phrase
+                        this exact word or phrase:
                     </div>
-
-                        <input id="all" type="text" name="all" label="All" class="grid-input">
+                    <input id="all" type="text" name="as_epq" label="All" class="grid-input">
                    
                     <div>
-                        any of these words
+                        any of these words:
                     </div>
-
-                        <input id="all" type="text" name="all" label="All" class="grid-input">
+                    <input id="all" type="text" name="as_oq" label="All" class="grid-input">
                     
                     <div>
-                        none of these words
+                        none of these words:
                     </div>
-
-                        <input id="all" type="text" name="all" label="All" class="grid-input">
-                    
-                    <div>
-                        qbox
-                    </div>
-
-                        <input id="box" type="text" name="q" class="flex-input">
+                    <input id="all" type="text" name="as_eq" label="All" class="grid-input">
                     
                     <input class="adv-button" type="submit" value="Advanced Search">
-
-                </div>
-            
-
+                </div>    
             </div>
         </form>
     </body>
