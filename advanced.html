@@ -19,25 +19,47 @@
         </div>
 
         <form id="advform" action="https://google.com/images" style="padding:40px;">
-            <h2>Advanced Search</h2>
+            <h1 style="color: #d93025; font-size: 20px; font-weight: 200;">Advanced Search</h1>
             <hr>
             <div>
-                <p>Find pages with...</p>
+                <p style="font-size: 16px;">Find pages with...</p>
 
-                <div >
-                    <div class="flex-container">
-                        Label Text
-                        <input id="all" type="text" name="all" label="All" class="flex-input">
+                <div class="grid-container">
+                    <div>
+                        all these words
                     </div>
-                    <div class="flex-container">
+
+                        <input id="all" type="text" name="all" label="All" class="grid-input">
+                    
+                    <div>
+                        this exact word or phrase
+                    </div>
+
+                        <input id="all" type="text" name="all" label="All" class="grid-input">
+                   
+                    <div>
+                        any of these words
+                    </div>
+
+                        <input id="all" type="text" name="all" label="All" class="grid-input">
+                    
+                    <div>
+                        none of these words
+                    </div>
+
+                        <input id="all" type="text" name="all" label="All" class="grid-input">
+                    
+                    <div>
                         qbox
-                        <input id="box" type="text" name="q" class="flex-input">
                     </div>
+
+                        <input id="box" type="text" name="q" class="flex-input">
+                    
+                    <input class="adv-button" type="submit" value="Advanced Search">
+
                 </div>
             
-            <div>
-                <input class="adv-button" type="submit" value="Advanced Search">
-            </div>
+
             </div>
         </form>
     </body>
