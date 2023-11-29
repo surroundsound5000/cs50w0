@@ -3,10 +3,43 @@
     font-size: 14px;
 }
 
-.flex-container {
+.flex-head {
     display : flex;
     width : 100%;
     margin-top : 30px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 22px;
+}
+
+.flex-label {
+    flex: 50%;
+    left: 5%;
+    height: 22%;
+}
+
+.flex-input{
+    flex: 30%;
+    position:absolute;
+    left: 20%;
+    width: 50%;
+    height: 22px;
+}
+
+.adv-button{
+    position: absolute;
+    font-weight: bold;
+    right: 29%;
+    padding: 8px;
+    background-color: #4a8dfb;
+    color: white; 
+    border: #264684;
+    border-radius: 2px;
+    
+
 }
 
 #left{
@@ -29,7 +62,11 @@ a {
 #form {
     text-align: center;
     padding:100px;
-    top: 50%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
 }
 
 #qbox {
