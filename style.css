@@ -29,6 +29,7 @@ a {
 #form {
     text-align: center;
     padding:100px;
+    top: 50%;
 }
 
 #qbox {
