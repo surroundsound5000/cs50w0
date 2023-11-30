@@ -4,9 +4,21 @@
         <title>Search</title>
         <link rel="stylesheet" href="style.css">
         <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+        <script>
+            function lucky() {
+                console.log('Button Clicked.')
+                // Add the key value pair for an I'm feeling lucky search
+                var luckyField = document.createElement('input');
+                luckyField.type = 'hidden';
+                luckyField.name = 'btnI';
+                luckyField.value = "I'm Feeling Lucky";
+                document.getElementById('form').appendChild(luckyField);
+                document.getElementById('form').submit();
+            }
+        </script>
     </head>
-    <body>
 
+    <body>
         <div class="flex-head">
             <div id="left">
                 <a>About</a>
@@ -17,18 +29,18 @@
                 <a href="advanced.html">Advanced</a>
             </div>
         </div>
+        <div class="form">
+            <form id="form" action="https://google.com/search">
+                <img src="logo.png">
+                <p></p>
+                <input id="qbox" type="text" name="q">
+                <p></p>
+                <input class="button" type="submit" value="Google Search">
+                <button class="button" type="button" onclick="lucky()">I'm Feeling Lucky</button>
+            </form>
 
-        <div class="center">
-            
-        <form id="form" action="https://google.com/search">
-            <img src="logo.png">
-            <p></p>
-            <input id="qbox" type="text" name="q">
-            <p></p>
-            <input class="button" type="submit" value="Google Search">
-            <input class="button" type="submit" value="I'm Feeling Lucky">
-        </form>
-    </div>
+        </div>
+
 
     </body>
 </html>

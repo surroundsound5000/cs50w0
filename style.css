@@ -25,7 +25,6 @@
 .grid-input{
     grid-column-start: 2;
     grid-column-end: 2;
-
 }
 
 .button {
@@ -66,7 +65,7 @@ a {
     text-decoration: none;
 }
 
-#form {
+.form {
     text-align: center;
     padding:100px;
     position: absolute;
